@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+.text-primary {
+    color: #93cb52;
+}
+
+.container {
+    padding: 0 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    color: #fff;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #93cb52;
+    border-radius: 5px;
+}
+
+#showcase {
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+
+}
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);  
+}
+
+.showcase-content h2 {
+    font-size: 3rem;
+}
+
+.showcase-content p {
+    font-size: 1.3rem;
+}
+
+.showcase-content a {
+    color: #fff;
+    background-color: #93cb52;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem;
+}
+
+.showcase-content a:hover {
+    background-color: #7ab436;
+}
+
+#What {
+    margin-bottom: 2rem;
+}
+
+#What h2 {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#What .items {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#What .items .item {
+    text-align: center;
+}
+
+
+#What .items .item i {
+
+    padding: 1rem;
+    background-color: #93cb52;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+
+}
+
+
+#Who {
+    display: flex;
+}
+
+#Who .who-img {
+    background: url(../img/people.jpg) no-repeat center center/cover ;
+}
+
+#Who div {
+    flex: 1;
+}
+
+#Who .who-content h2 {
+    text-align: center;
+}
+
+#Who .who-content h3 {
+    padding: 0.75rem 0;
+}
+
+#Who .who-content ul {
+    list-style-type: none;;
+
+}
+
+#Who .who-content ul li {
+    border-bottom: 1px dotted #444;
+    padding: 0.5rem 0 ;
+}
+
+#Client {
+    margin-bottom: 2rem;
+}
+
+
+#Clients h2 {
+    text-align: center;
+    padding: 2rem;
+}
+
+#Clients .img-logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Clients .img-logo img {
+    display: block;
+    width: 13%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+#Contact {
+
+    display: flex;
+}
+#Contact .form-section , #Contact .googleMap {
+    flex: 1;
+
+}
+#Contact .form-section {
+    padding: 1rem;
+}
+
+#Contact h2,#Contact p {
+    text-align: center;
+    padding: 0.2rem;
+}
+
+#Contact .form-section {
+    background-color: #93cb52;
+    color: #fff;
+}
+
+#Contact .form-section .form-control {
+    display: flex;
+    flex-direction: column;
+    padding:0 2rem;
+}
+
+#Contact .form-section .form-control input, #Contact .form-section .form-control textarea {
+    
+    padding: 0.25rem 0;
+}
+#Contact .form-section label {
+    margin-top: 0.5rem;
+}
+
+
+#Contact .form-section input[type=submit] {
+    
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 1rem 2rem;
+    outline: none;
+    width: 80%;
+    cursor: pointer;
+    
+    
+}
+
+
+#footer {
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
